@@ -12,8 +12,8 @@ export default function Card(props) {
           <span className="gray">({props.rewiewCount}) </span>
           <span className="gray">{props.country} </span>
         </div>
-        <p>{props.title}</p>
-        <p>
+        <p className="title--status">{props.title}</p>
+        <p className="price--status">
           <span className="bold--text">From {props.price}</span> / person
         </p>
       </div>

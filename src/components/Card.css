@@ -15,11 +15,13 @@
 
 .bold--text {
     font-weight: bold;
+
 }
 
 .card--status {
     display: flex;
     align-items: center;
+
 }
 
 .star--image {
@@ -29,4 +31,59 @@
 
 section {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--image{
+    position: absolute;
+width: 176px;
+height: 235px;
+left: 37px;
+top: 521px;
+}
+
+.price--status{
+    position: absolute;
+    width: 144px;
+    height: 14px;
+    left: 36px;
+    top: 809px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.card--status {
+    position: absolute;
+    width: 18px;
+    height: 14px;
+    left: 52px;
+    top: 765px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+} 
+
+.title--status {
+    position: absolute;
+    width: 175px;
+    height: 14px;
+    left: 37px;
+    top: 787px;
+
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+
 }
